@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.18">
+<file name="/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/repository/CustomerRepository.java">
+</file>
+<file name="/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/validator/PhoneNumberValidator.java">
+</file>
+<file name="/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/validator/RegexPhoneNumberValidator.java">
+</file>
+<file name="/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/MainApplication.java">
+</file>
+<file name="/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/provider/CsvInternationalPhoneProvider.java">
+</file>
+<file name="/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/provider/InternationalPhoneProvider.java">
+</file>
+<file name="/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/model/InternationalPhoneType.java">
+</file>
+<file name="/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/model/Customer.java">
+</file>
+<file name="/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/service/CustomerService.java">
+</file>
+<file name="/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/service/InternationalPhoneService.java">
+</file>
+<file name="/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/rest/controller/CustomerController.java">
+</file>
+<file name="/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/rest/controller/InternationalPhoneController.java">
+</file>
+<file name="/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/resources/application.properties">
+</file>
+</checkstyle>

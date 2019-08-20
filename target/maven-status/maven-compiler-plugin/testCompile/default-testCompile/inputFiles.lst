@@ -1,0 +1,5 @@
+/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/test/java/application/MainApplicationTest.java
+/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/test/java/application/provider/CsvInternationalPhoneProviderTest.java
+/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/test/java/application/validator/RegexPhoneNumberValidatorTest.java
+/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/test/java/application/service/InternationalPhoneServiceTest.java
+/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/test/java/application/service/CustomerServiceTest.java

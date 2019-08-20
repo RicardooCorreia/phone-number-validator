@@ -1,0 +1,12 @@
+/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/service/CustomerService.java
+/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/validator/PhoneNumberValidator.java
+/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/provider/InternationalPhoneProvider.java
+/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/model/InternationalPhoneType.java
+/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/rest/controller/InternationalPhoneController.java
+/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/provider/CsvInternationalPhoneProvider.java
+/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/service/InternationalPhoneService.java
+/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/validator/RegexPhoneNumberValidator.java
+/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/rest/controller/CustomerController.java
+/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/model/Customer.java
+/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/repository/CustomerRepository.java
+/Users/ricardocorreia/MyProjects/Projects/phone-number-validator/src/main/java/application/MainApplication.java

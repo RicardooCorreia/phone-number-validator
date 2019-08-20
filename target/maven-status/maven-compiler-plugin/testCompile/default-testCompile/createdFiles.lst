@@ -1,0 +1,5 @@
+application/service/InternationalPhoneServiceTest.class
+application/service/CustomerServiceTest.class
+application/provider/CsvInternationalPhoneProviderTest.class
+application/MainApplicationTest.class
+application/validator/RegexPhoneNumberValidatorTest.class
