@@ -12,7 +12,7 @@ The backend layer is developed in Java with Spring. It uses Hibernate JPA for da
 
 ### Frontend
 
-Unfortunately, I was unable to get String MVC and Thymeleaf to work, so the alternative that I found due to the lack of time was to make a index.html page and add an Javascript file to manage the page. 
+Unfortunately, I was unable to get String MVC and Thymeleaf to work, so the alternative that I found was to make a index.html page and add an Javascript file to manage the page. 
 
 ## Execution
 
