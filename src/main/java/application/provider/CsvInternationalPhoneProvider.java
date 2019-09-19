@@ -2,6 +2,7 @@ package application.provider;
 
 import application.model.InternationalPhoneType;
 import com.google.common.annotations.VisibleForTesting;
+import lombok.Cleanup;
 import org.simpleflatmapper.csv.CsvParser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -42,8 +43,8 @@ public class CsvInternationalPhoneProvider implements InternationalPhoneProvider
 
     @PostConstruct
     public void loadCsvFile() throws IOException {
-        InputStream inputStream = resourceLoader.getResource(csvFilePath).getInputStream();
-        Reader reader = new InputStreamReader(inputStream, StandardCharsets.UTF_8);
+        @Cleanup InputStream inputStream = resourceLoader.getResource(csvFilePath).getInputStream();
+        @Cleanup Reader reader = new InputStreamReader(inputStream, StandardCharsets.UTF_8);
         internationalPhoneTypeMap.putAll(
                 CsvParser
                         .stream(reader)
