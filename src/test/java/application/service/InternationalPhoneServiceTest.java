@@ -81,11 +81,11 @@ public class InternationalPhoneServiceTest {
     }
 
     private InternationalPhoneType buildInternationalPhoneType(String country, String indicative) {
-        return InternationalPhoneType.Builder
-                .anInternationalPhoneType()
-                .withCountry(country)
-                .withIndicative(indicative)
-                .withRegex("test regex")
+        return InternationalPhoneType
+                .builder()
+                .country(country)
+                .indicative(indicative)
+                .regex("test regex")
                 .build();
     }
 }

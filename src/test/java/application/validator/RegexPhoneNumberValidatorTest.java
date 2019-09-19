@@ -42,11 +42,11 @@ public class RegexPhoneNumberValidatorTest {
     }
 
     private InternationalPhoneType buildInternationalPhone() {
-        return InternationalPhoneType.Builder
-                .anInternationalPhoneType()
-                .withCountry("Portugal")
-                .withIndicative("351")
-                .withRegex("\\(351\\)\\ ?\\d{9}$")
+        return InternationalPhoneType
+                .builder()
+                .country("Portugal")
+                .indicative("351")
+                .regex("\\(351\\)\\ ?\\d{9}$")
                 .build();
     }
 

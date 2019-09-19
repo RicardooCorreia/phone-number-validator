@@ -116,11 +116,11 @@ public class CustomerServiceTest {
     }
 
     private Customer buildCustomer(int id, String name, String number) {
-        return Customer.Builder
-                .aCustomer()
-                .withId(id)
-                .withName(name)
-                .withPhone(number)
+        return Customer
+                .builder()
+                .id(id)
+                .name(name)
+                .phone(number)
                 .build();
     }
 }

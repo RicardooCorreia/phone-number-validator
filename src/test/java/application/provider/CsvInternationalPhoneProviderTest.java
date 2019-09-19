@@ -71,11 +71,11 @@ public class CsvInternationalPhoneProviderTest {
     }
 
     private InternationalPhoneType buildInternationalPhoneType(String country, String indicative, String regex) {
-        return InternationalPhoneType.Builder
-                .anInternationalPhoneType()
-                .withCountry(country)
-                .withIndicative(indicative)
-                .withRegex(regex)
+        return InternationalPhoneType
+                .builder()
+                .country(country)
+                .indicative(indicative)
+                .regex(regex)
                 .build();
     }
 

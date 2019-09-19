@@ -28,11 +28,11 @@ public class CustomerService {
 
     public boolean savePhoneNumber(String name, String number) {
         if (phoneNumberValidator.isValid(number) && Objects.nonNull(name)) {
-            customerRepository.save(Customer.Builder
-                    .aCustomer()
-                    .withId(generateId())
-                    .withName(name)
-                    .withPhone(number)
+            customerRepository.save(Customer
+                    .builder()
+                    .id(generateId())
+                    .name(name)
+                    .phone(number)
                     .build());
             return true;
         }
