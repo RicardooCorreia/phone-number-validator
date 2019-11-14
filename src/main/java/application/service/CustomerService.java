@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Objects;
 import java.util.Random;
+import java.util.UUID;
 
 @Service
 public class CustomerService {
@@ -21,9 +22,9 @@ public class CustomerService {
     }
 
     private int generateId() {
-        // hack to generate Id
+        // todo: work-around to generate Id
         // Model @GeneratedValue not working because of missing sequences table
-        return new Random().nextInt();
+        return UUID.randomUUID().hashCode();
     }
 
     public boolean savePhoneNumber(String name, String number) {

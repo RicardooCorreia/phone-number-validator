@@ -2,12 +2,14 @@ package application.validator;
 
 import application.provider.InternationalPhoneProvider;
 import application.model.InternationalPhoneType;
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.Objects;
 
 @Component
+@AllArgsConstructor
 public class RegexPhoneNumberValidator implements PhoneNumberValidator {
     private static final String SPACE = " ";
     private static final String PARENTHESES = "[()]";
@@ -15,16 +17,11 @@ public class RegexPhoneNumberValidator implements PhoneNumberValidator {
 
     private final InternationalPhoneProvider internationalPhoneProvider;
 
-    @Autowired
-    public RegexPhoneNumberValidator(InternationalPhoneProvider internationalPhoneProvider) {
-        this.internationalPhoneProvider = internationalPhoneProvider;
-    }
-
     public boolean isValid(String number) {
         if (Objects.isNull(number)) {
             return false;
         }
-        String indicative = extractNumberIndicative(number);
+        final String indicative = extractNumberIndicative(number);
         final InternationalPhoneType internationalPhoneType = getInternationalPhoneType(indicative);
 
         return isValid(number, internationalPhoneType);
